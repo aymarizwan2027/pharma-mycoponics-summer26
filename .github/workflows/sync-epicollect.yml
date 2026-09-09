@@ -1,0 +1,64 @@
+name: Sync EpiCollect to GitHub
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: 'Refresh all records, including deletions'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-epicollect.yml'
+      - 'scripts/sync_epicollect.ps1'
+permissions:
+  contents: read
+concurrency:
+  group: epicollect-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    if: github.repository == 'aymarizwan2027/pharma-mycoponics-summer26'
+    runs-on: windows-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Download and validate EpiCollect changes
+        env:
+          FULL_REFRESH: ${{ inputs.full_refresh }}
+        run: |
+          $full = $env:FULL_REFRESH -eq 'true'
+          & ./scripts/sync_epicollect.ps1 -Destination data/epicollect -Full:$full
+      - name: Save validated data in this repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/epicollect
+          if ($LASTEXITCODE -ne 0) { throw 'Could not stage synced files' }
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { Write-Output 'No changes to save'; exit 0 }
+          if ($LASTEXITCODE -ne 1) { throw 'Could not check changes' }
+          git commit -m 'Sync EpiCollect research data'
+          if ($LASTEXITCODE -ne 0) { throw 'Commit failed' }
+          git pull --rebase origin main
+          if ($LASTEXITCODE -ne 0) { throw 'Repository changed; retry the workflow' }
+          git push origin HEAD:main
+          if ($LASTEXITCODE -ne 0) { throw 'Push failed; data not published' }
+      - name: Show synced record counts
+        run: |
+          $state = Get-Content -Raw data/epicollect/sync-state.json | ConvertFrom-Json
+          "EpiCollect sync completed ($($state.mode))." >> $env:GITHUB_STEP_SUMMARY
+          "Checked through UTC: $($state.checked_through)" >> $env:GITHUB_STEP_SUMMARY
+          foreach ($p in $state.counts.PSObject.Properties) {
+            "- $($p.Name): $($p.Value) records" >> $env:GITHUB_STEP_SUMMARY
+          }
