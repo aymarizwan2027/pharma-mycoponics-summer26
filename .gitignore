@@ -1,0 +1,3 @@
+# Downloaded API snapshots remain local until deliberately reviewed and added.
+data/raw/epicollect/
+__pycache__/
