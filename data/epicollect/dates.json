@@ -1,0 +1,497 @@
+[
+  {
+    "ec5_uuid": "0c11aca0-9206-11f1-9518-87ccf2fafc79",
+    "created_at": "2026-08-07T02:16:49Z",
+    "uploaded_at": "2026-08-25T21:37:11Z",
+    "title": "30/06/2026",
+    "1_Date": "30/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "104e6bf0-9206-11f1-9518-87ccf2fafc79",
+    "created_at": "2026-08-07T02:16:56Z",
+    "uploaded_at": "2026-08-25T21:37:09Z",
+    "title": "01/07/2026",
+    "1_Date": "01/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "12d43e60-9204-11f1-9262-61c43e67bcf5",
+    "created_at": "2026-08-07T02:02:41Z",
+    "uploaded_at": "2026-08-25T21:37:28Z",
+    "title": "16/06/2026",
+    "1_Date": "16/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 8
+  },
+  {
+    "ec5_uuid": "16818790-9207-11f1-a488-057d0ae059c0",
+    "created_at": "2026-08-07T02:24:16Z",
+    "uploaded_at": "2026-08-25T21:36:52Z",
+    "title": "14/07/2026",
+    "1_Date": "14/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "196bdda0-9204-11f1-9262-61c43e67bcf5",
+    "created_at": "2026-08-07T02:02:52Z",
+    "uploaded_at": "2026-08-25T21:37:26Z",
+    "title": "17/06/2026",
+    "1_Date": "17/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 8
+  },
+  {
+    "ec5_uuid": "1a80a1a0-9207-11f1-a488-057d0ae059c0",
+    "created_at": "2026-08-07T02:24:23Z",
+    "uploaded_at": "2026-08-25T21:36:51Z",
+    "title": "15/07/2026",
+    "1_Date": "15/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "1adbaf60-9206-11f1-9518-87ccf2fafc79",
+    "created_at": "2026-08-07T02:17:14Z",
+    "uploaded_at": "2026-08-25T21:37:08Z",
+    "title": "02/07/2026",
+    "1_Date": "02/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "212ef2a0-9206-11f1-9518-87ccf2fafc79",
+    "created_at": "2026-08-07T02:17:24Z",
+    "uploaded_at": "2026-08-25T21:37:07Z",
+    "title": "03/07/2026",
+    "1_Date": "03/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "25278790-9207-11f1-9186-31d4e5d7aabc",
+    "created_at": "2026-08-07T02:24:41Z",
+    "uploaded_at": "2026-08-25T21:36:50Z",
+    "title": "16/07/2026",
+    "1_Date": "16/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "29a87bd0-9207-11f1-9186-31d4e5d7aabc",
+    "created_at": "2026-08-07T02:24:48Z",
+    "uploaded_at": "2026-08-25T21:36:48Z",
+    "title": "17/07/2026",
+    "1_Date": "17/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "309c1dc0-9207-11f1-9186-31d4e5d7aabc",
+    "created_at": "2026-08-07T02:25:00Z",
+    "uploaded_at": "2026-08-25T21:36:46Z",
+    "title": "19/07/2026",
+    "1_Date": "19/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "351d1278-fe80-48d4-99b7-5df11d522f8d",
+    "created_at": "2026-08-07T17:23:20Z",
+    "uploaded_at": "2026-08-25T21:36:22Z",
+    "title": "07/08/2026",
+    "1_Date": "07/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "3a1d2be0-9208-11f1-9ae6-cbe624cafba5",
+    "created_at": "2026-08-07T02:32:25Z",
+    "uploaded_at": "2026-08-25T21:36:27Z",
+    "title": "03/08/2026",
+    "1_Date": "03/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "3cb0c480-9207-11f1-8555-b77c5e5555d6",
+    "created_at": "2026-08-07T02:25:20Z",
+    "uploaded_at": "2026-08-25T21:36:45Z",
+    "title": "20/07/2026",
+    "1_Date": "20/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "415bd600-9207-11f1-8555-b77c5e5555d6",
+    "created_at": "2026-08-07T02:25:28Z",
+    "uploaded_at": "2026-08-25T21:36:44Z",
+    "title": "21/07/2026",
+    "1_Date": "21/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "42238840-9206-11f1-b91a-4736f6a951ba",
+    "created_at": "2026-08-07T02:18:20Z",
+    "uploaded_at": "2026-08-25T21:37:06Z",
+    "title": "04/07/2026",
+    "1_Date": "04/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "45476810-9207-11f1-8555-b77c5e5555d6",
+    "created_at": "2026-08-07T02:25:34Z",
+    "uploaded_at": "2026-08-25T21:36:42Z",
+    "title": "22/07/2026",
+    "1_Date": "22/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "4901bb80-9208-11f1-9ae6-cbe624cafba5",
+    "created_at": "2026-08-07T02:32:50Z",
+    "uploaded_at": "2026-08-25T21:36:26Z",
+    "title": "04/08/2026",
+    "1_Date": "04/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "4ed1fe00-9206-11f1-b91a-4736f6a951ba",
+    "created_at": "2026-08-07T02:18:41Z",
+    "uploaded_at": "2026-08-25T21:37:05Z",
+    "title": "05/07/2026",
+    "1_Date": "05/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "52680b20-9208-11f1-985c-f79deada967f",
+    "created_at": "2026-08-07T02:33:06Z",
+    "uploaded_at": "2026-08-25T21:36:24Z",
+    "title": "05/08/2026",
+    "1_Date": "05/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "54fc4000-9207-11f1-aadd-df4879ec2771",
+    "created_at": "2026-08-07T02:26:01Z",
+    "uploaded_at": "2026-08-25T21:36:41Z",
+    "title": "23/07/2026",
+    "1_Date": "23/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "559b5ba0-9206-11f1-b91a-4736f6a951ba",
+    "created_at": "2026-08-07T02:18:52Z",
+    "uploaded_at": "2026-08-25T21:37:04Z",
+    "title": "06/07/2026",
+    "1_Date": "06/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "5812f280-91de-11f1-bdff-3dea7edc8549",
+    "created_at": "2026-08-06T21:32:37Z",
+    "uploaded_at": "2026-08-25T21:37:29Z",
+    "title": "15/06/2026",
+    "1_Date": "15/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 8
+  },
+  {
+    "ec5_uuid": "58fce0b0-9207-11f1-aadd-df4879ec2771",
+    "created_at": "2026-08-07T02:26:08Z",
+    "uploaded_at": "2026-08-25T21:36:40Z",
+    "title": "24/07/2026",
+    "1_Date": "24/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "59ab7ac0-9208-11f1-bc48-c9fd0cd355af",
+    "created_at": "2026-08-07T02:33:18Z",
+    "uploaded_at": "2026-08-25T21:36:23Z",
+    "title": "06/08/2026",
+    "1_Date": "06/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "59d95668-3574-4d73-87d2-398740f59516",
+    "created_at": "2026-08-09T00:58:54Z",
+    "uploaded_at": "2026-08-25T21:36:21Z",
+    "title": "08/08/2026",
+    "1_Date": "08/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "5e7888a0-9207-11f1-aadd-df4879ec2771",
+    "created_at": "2026-08-07T02:26:17Z",
+    "uploaded_at": "2026-08-25T21:36:39Z",
+    "title": "25/07/2026",
+    "1_Date": "25/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "624f9900-aa08-11f1-a927-053478024664",
+    "created_at": "2026-09-06T15:34:01Z",
+    "uploaded_at": "2026-09-06T15:36:15Z",
+    "title": "12/06/2026",
+    "1_Date": "12/06/2026",
+    "2_Chamber_conditions": 0,
+    "8_Chamber": 4
+  },
+  {
+    "ec5_uuid": "68feee40-9207-11f1-ba24-e7a1a5a09e42",
+    "created_at": "2026-08-07T02:26:34Z",
+    "uploaded_at": "2026-08-25T21:36:38Z",
+    "title": "26/07/2026",
+    "1_Date": "26/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "6e4c3330-9207-11f1-ba24-e7a1a5a09e42",
+    "created_at": "2026-08-07T02:26:43Z",
+    "uploaded_at": "2026-08-25T21:36:37Z",
+    "title": "27/07/2026",
+    "1_Date": "27/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "70c56600-9206-11f1-a57e-abc999418cec",
+    "created_at": "2026-08-07T02:19:38Z",
+    "uploaded_at": "2026-08-25T21:37:02Z",
+    "title": "07/07/2026",
+    "1_Date": "07/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "72b6b940-9207-11f1-ba24-e7a1a5a09e42",
+    "created_at": "2026-08-07T02:26:51Z",
+    "uploaded_at": "2026-08-25T21:36:35Z",
+    "title": "28/07/2026",
+    "1_Date": "28/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "75fb7970-9206-11f1-a57e-abc999418cec",
+    "created_at": "2026-08-07T02:19:47Z",
+    "uploaded_at": "2026-08-25T21:37:01Z",
+    "title": "08/07/2026",
+    "1_Date": "08/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "7621f7c0-9207-11f1-ba24-e7a1a5a09e42",
+    "created_at": "2026-08-07T02:26:56Z",
+    "uploaded_at": "2026-08-25T21:36:34Z",
+    "title": "29/07/2026",
+    "1_Date": "29/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "780c9ba0-9205-11f1-bc95-0954c57f36fb",
+    "created_at": "2026-08-07T02:12:41Z",
+    "uploaded_at": "2026-08-25T21:37:25Z",
+    "title": "18/06/2026",
+    "1_Date": "18/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 12
+  },
+  {
+    "ec5_uuid": "7e15b680-9205-11f1-bc95-0954c57f36fb",
+    "created_at": "2026-08-07T02:12:51Z",
+    "uploaded_at": "2026-08-25T21:37:24Z",
+    "title": "19/06/2026",
+    "1_Date": "19/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 12
+  },
+  {
+    "ec5_uuid": "832ee130-9207-11f1-a0ac-03e2707c61cb",
+    "created_at": "2026-08-07T02:27:18Z",
+    "uploaded_at": "2026-08-25T21:36:33Z",
+    "title": "30/07/2026",
+    "1_Date": "30/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "856cfc40-9205-11f1-bc95-0954c57f36fb",
+    "created_at": "2026-08-07T02:13:03Z",
+    "uploaded_at": "2026-08-25T21:37:23Z",
+    "title": "20/06/2026",
+    "1_Date": "20/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 12
+  },
+  {
+    "ec5_uuid": "8b5a78d0-9205-11f1-bc95-0954c57f36fb",
+    "created_at": "2026-08-07T02:13:13Z",
+    "uploaded_at": "2026-08-25T21:37:22Z",
+    "title": "21/06/2026",
+    "1_Date": "21/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 12
+  },
+  {
+    "ec5_uuid": "992fd070-9207-11f1-b651-5d6fce51deb5",
+    "created_at": "2026-08-07T02:27:55Z",
+    "uploaded_at": "2026-08-25T21:36:30Z",
+    "title": "31/07/2026",
+    "1_Date": "31/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "9dd3dd10-9207-11f1-b651-5d6fce51deb5",
+    "created_at": "2026-08-07T02:28:03Z",
+    "uploaded_at": "2026-08-25T21:36:29Z",
+    "title": "01/08/2026",
+    "1_Date": "01/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "a1eeb1f0-9206-11f1-b07c-23192f0e7dfa",
+    "created_at": "2026-08-07T02:21:00Z",
+    "uploaded_at": "2026-08-25T21:37:00Z",
+    "title": "09/07/2026",
+    "1_Date": "09/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "a6148de0-9206-11f1-b07c-23192f0e7dfa",
+    "created_at": "2026-08-07T02:21:07Z",
+    "uploaded_at": "2026-08-25T21:36:59Z",
+    "title": "10/07/2026",
+    "1_Date": "10/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "a727c810-9205-11f1-bca9-83b388c0a0a4",
+    "created_at": "2026-08-07T02:14:00Z",
+    "uploaded_at": "2026-08-25T21:37:21Z",
+    "title": "22/06/2026",
+    "1_Date": "22/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "ab4d77d5-a552-43b2-abfb-821172faf6ad",
+    "created_at": "2026-08-09T14:53:24Z",
+    "uploaded_at": "2026-08-25T21:36:19Z",
+    "title": "09/08/2026",
+    "1_Date": "09/08/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "ac1d01f0-9205-11f1-bca9-83b388c0a0a4",
+    "created_at": "2026-08-07T02:14:08Z",
+    "uploaded_at": "2026-08-25T21:37:19Z",
+    "title": "23/06/2026",
+    "1_Date": "23/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "acdfe750-9206-11f1-b07c-23192f0e7dfa",
+    "created_at": "2026-08-07T02:21:19Z",
+    "uploaded_at": "2026-08-25T21:36:58Z",
+    "title": "11/07/2026",
+    "1_Date": "11/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "af959170-9206-11f1-b07c-23192f0e7dfa",
+    "created_at": "2026-08-07T02:21:23Z",
+    "uploaded_at": "2026-08-25T21:36:56Z",
+    "title": "12/07/2026",
+    "1_Date": "12/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "b3b1f780-9206-11f1-b07c-23192f0e7dfa",
+    "created_at": "2026-08-07T02:21:30Z",
+    "uploaded_at": "2026-08-25T21:36:55Z",
+    "title": "13/07/2026",
+    "1_Date": "13/07/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "bb647210-9205-11f1-9bf5-b15c7c68ff3f",
+    "created_at": "2026-08-07T02:14:34Z",
+    "uploaded_at": "2026-08-25T21:37:18Z",
+    "title": "24/06/2026",
+    "1_Date": "24/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "beee3510-9205-11f1-9bf5-b15c7c68ff3f",
+    "created_at": "2026-08-07T02:14:40Z",
+    "uploaded_at": "2026-08-25T21:37:17Z",
+    "title": "25/06/2026",
+    "1_Date": "25/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "c3bb9ba0-9205-11f1-9bf5-b15c7c68ff3f",
+    "created_at": "2026-08-07T02:14:48Z",
+    "uploaded_at": "2026-08-25T21:37:16Z",
+    "title": "26/06/2026",
+    "1_Date": "26/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "d2645ac0-9205-11f1-ba5f-319f359841fc",
+    "created_at": "2026-08-07T02:15:12Z",
+    "uploaded_at": "2026-08-25T21:37:14Z",
+    "title": "27/06/2026",
+    "1_Date": "27/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "d76eca50-9205-11f1-ba5f-319f359841fc",
+    "created_at": "2026-08-07T02:15:21Z",
+    "uploaded_at": "2026-08-25T21:37:13Z",
+    "title": "28/06/2026",
+    "1_Date": "28/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  },
+  {
+    "ec5_uuid": "dac34c80-9205-11f1-ba5f-319f359841fc",
+    "created_at": "2026-08-07T02:15:26Z",
+    "uploaded_at": "2026-08-25T21:37:12Z",
+    "title": "29/06/2026",
+    "1_Date": "29/06/2026",
+    "2_Chamber_conditions": 4,
+    "8_Chamber": 16
+  }
+]
