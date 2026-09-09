@@ -37,6 +37,6 @@ The script uses built-in Windows web tools, spaces requests 25 seconds apart, ch
 
 Check that `manifest.json` says `complete: true` before using an export. If a request fails, its folder stays incomplete; resolve the error and rerun to create a new snapshot. If Windows blocks scripts, follow your computer's approved script-running policy.
 
-All three tables were successfully downloaded without credentials on September 9, 2026: **55 date records, 216 chamber-condition records, and 828 tube records**. The older GitHub tube export has 830 data rows; investigate that difference before combining versions. Neither source has been overwritten.
+All three tables were successfully downloaded without credentials on September 9, 2026: **55 date records, 216 chamber-condition records, and 828 tube records**. The original GitHub tube export also contains 828 records and 828 unique identifiers. Its quoted notes include line breaks, so counting text lines overstates the record count. Neither source has been overwritten.
 
 Downloaded snapshots are kept local by default through `.gitignore`; review them before deliberately publishing. Photo references are retained, but image files are not downloaded. General Form and Forms 2–4 are outside this downloader's scope. If project access later becomes restricted, consult the [official EpiCollect5 API guide](https://developers.epicollect.net/); do not put passwords or tokens in this public repository.
