@@ -2,9 +2,9 @@
   "project": "mycoponics-porterfield",
   "form_ref": "8a09dbeef84443df91d134da7b71b9e2_6a738dc33d46e",
   "complete": true,
-  "checked_through": "2026-10-21T12:03:57.5957623+00:00",
-  "last_full_sync": "2026-10-14T17:22:00.4761622+00:00",
-  "mode": "incremental",
+  "checked_through": "2026-10-21T17:23:40.9450611+00:00",
+  "last_full_sync": "2026-10-21T17:23:40.9450611+00:00",
+  "mode": "full",
   "counts": {
     "dates": 55,
     "chamber_conditions": 216,
