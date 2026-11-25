@@ -1,6 +1,8 @@
 # pharma-mycoponics-summer26
 Data and analysis for characterization of exudate production in blue oyster mushroom mycoponics systems.
 
+**[Open the study dashboard](https://aymarizwan2027.github.io/pharma-mycoponics-summer26/dashboard/)**
+
 ## Start here
 
 A repository is the project folder. A **commit** is a saved change with a description. **main** is the primary version. The dataset from pull request #1 is now included in main; its original files and history are preserved.
@@ -40,3 +42,17 @@ Check that `manifest.json` says `complete: true` before using an export. If a re
 All three tables were successfully downloaded without credentials on September 9, 2026: **55 date records, 216 chamber-condition records, and 828 tube records**. The original GitHub tube export also contains 828 records and 828 unique identifiers. Its quoted notes include line breaks, so counting text lines overstates the record count. Neither source has been overwritten.
 
 Downloaded snapshots are kept local by default through `.gitignore`; review them before deliberately publishing. Photo references are retained, but image files are not downloaded. General Form and Forms 2–4 are outside this downloader's scope. If project access later becomes restricted, consult the [official EpiCollect5 API guide](https://developers.epicollect.net/); do not put passwords or tokens in this public repository.
+
+## Roboflow photo workflow
+
+The [dashboard](https://aymarizwan2027.github.io/pharma-mycoponics-summer26/dashboard/) reads the repository's synced CSVs and groups tube observations with their parent date record. It uses only `1_Date` for study dates and filters to June 12 through August 10, 2026. `created_at` and `uploaded_at` are not observation dates. Photo fields are expanded into one manifest row per photo, including the separate photo slots in a tube entry.
+
+The workflow is intentionally staged so the existing annotated archive is not uploaded again by accident:
+
+1. In **Settings → Secrets and variables → Actions**, add repository secret `ROBOFLOW_API_KEY` with your Roboflow API key. Never put the key in a file or commit.
+2. Open **Actions → Sync Epicollect photos to Roboflow → Run workflow**, choose `baseline`, and run it. This indexes in-range photo references into `data/roboflow/manifest.csv`; it does not upload images.
+3. Run `reconcile` to match existing Roboflow images by their new IDs/names or metadata. Review the manifest for `unmatched_legacy` rows before enabling uploads.
+4. After the manifest is ready, run `sync` manually to upload new photos only. Each image gets its Epicollect entry ID and photo-slot information in its name and metadata, plus its culture tag.
+5. To enable daily automatic uploads, add Actions repository variable `ROBOFLOW_SYNC_ENABLED` with value `true`. The schedule is gated off until that variable is set. The existing Epicollect sync updates repo CSVs on its own cadence; the Roboflow workflow reads those synced CSVs.
+
+The sync script and workflow are in `scripts/sync_roboflow.py` and `.github/workflows/sync-roboflow.yml`. The manifest stores identifiers, statuses, and dates, not image files. Do not commit photos or API keys to this public repository. The dashboard and repository data are public while GitHub Pages/repo access is public.
